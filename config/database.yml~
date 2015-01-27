@@ -27,7 +27,7 @@
 
 development:
   adapter: postgresql
-  database: postgres
+  database: rails_dev
   # username: {your_username}
   pool: 5
   timeout: 5000
