@@ -1,0 +1,32 @@
+<h1>All items in Featured Hero Builds</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Shopping list</th>
+      <th>Item</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @shopping_list_items.each do |shopping_list_item| %>
+      <tr>
+        <td><%= shopping_list_item.shopping_list_id %></td>
+        <td><%= shopping_list_item.item_id %></td>
+        <td><%= shopping_list_item.price %></td>
+        <td><%= shopping_list_item.quantity %></td>
+        <td><%= link_to 'Show', shopping_list_item %></td>
+        <td><%= link_to 'Edit', edit_shopping_list_item_path(shopping_list_item) %></td>
+        <td><%= link_to 'Destroy', shopping_list_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Shopping list item', new_shopping_list_item_path %>
+<a href= "/" >back</a>
