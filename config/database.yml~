@@ -38,8 +38,8 @@ development:
 test:
   adapter: postgresql
   #database: rails_dev
- database: postgres
- # username: {your_username}
+  database: postgres
+  #username: {your_username}
   pool: 5
   timeout: 5000
 

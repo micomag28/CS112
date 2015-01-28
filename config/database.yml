@@ -43,11 +43,11 @@ test:
   pool: 5
   timeout: 5000
 
-production:
-  adapter: postgresql
+#production:
+  #adapter: postgresql
   #database: ddb
-  database: postgres
-  pool: 5
-  timeout: 5000
-  username: postgres
-  password: admin
+  #database: postgres
+  #pool: 5
+  #timeout: 5000
+  #username: postgres
+  #password: admin

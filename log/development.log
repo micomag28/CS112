@@ -5358,3 +5358,338 @@ Processing by ShopsController#index as HTML
 Completed 200 OK in 171ms (Views: 154.2ms | ActiveRecord: 3.3ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 00:37:13 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 194ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 00:37:13 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 132ms (Views: 130.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/shopping_list_items.css?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/shops.css?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/shopping_lists.css?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/shopping_list_items.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/assets/shops.js?body=1" for 127.0.0.1 at 2015-01-28 00:37:14 +0800
+
+
+Started GET "/shopping_lists" for 127.0.0.1 at 2015-01-28 00:37:16 +0800
+Processing by ShoppingListsController#index as HTML
+  [1m[35mShoppingList Load (0.6ms)[0m  SELECT "shopping_lists".* FROM "shopping_lists"
+  Rendered shopping_lists/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 139ms (Views: 129.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 07:57:56 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 231ms (Views: 219.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 140ms (Views: 139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/shopping_list_items.css?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/shops.css?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/shopping_lists.css?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/shopping_list_items.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/shops.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 07:57:57 +0800
+
+
+Started GET "/shopping_lists" for 127.0.0.1 at 2015-01-28 07:58:03 +0800
+Processing by ShoppingListsController#index as HTML
+  [1m[35mShoppingList Load (1.0ms)[0m  SELECT "shopping_lists".* FROM "shopping_lists"
+  Rendered shopping_lists/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 197ms (Views: 179.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 07:58:06 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 153ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shopping_lists" for 127.0.0.1 at 2015-01-28 08:01:34 +0800
+Processing by ShoppingListsController#index as HTML
+  [1m[36mShoppingList Load (0.4ms)[0m  [1mSELECT "shopping_lists".* FROM "shopping_lists"[0m
+  Rendered shopping_lists/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 152ms (Views: 150.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 08:06:22 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 223ms (Views: 212.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shopping_lists.css?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/shopping_list_items.css?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/shops.css?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/shopping_list_items.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/shops.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:24 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 08:06:24 +0800
+
+
+Started GET "/shops" for 127.0.0.1 at 2015-01-28 08:06:44 +0800
+Processing by ShopsController#index as HTML
+  [1m[35mShop Load (0.6ms)[0m  SELECT "shops".* FROM "shops"
+  Rendered shops/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 185ms (Views: 170.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/shops/new" for 127.0.0.1 at 2015-01-28 08:08:09 +0800
+Processing by ShopsController#new as HTML
+  Rendered shops/_form.html.erb (76.0ms)
+  Rendered shops/new.html.erb within layouts/application (80.7ms)
+Completed 200 OK in 229ms (Views: 227.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/shops" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+Processing by ShopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w+vfffrL28h1OFZFkLQ9p4iKmIXgFQ11eCitVUwUj7g=", "shop"=>{"name"=>"Dire Shop", "address"=>"Dire Well"}, "commit"=>"Create Shop"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "shops" ("address", "created_at", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["address", "Dire Well"], ["created_at", "2015-01-28 00:08:18.216307"], ["name", "Dire Shop"], ["updated_at", "2015-01-28 00:08:18.216307"]]
+  [1m[36m (25.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/shops/2
+Completed 302 Found in 38ms (ActiveRecord: 26.2ms)
+
+
+Started GET "/shops/2" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+Processing by ShopsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mShop Load (0.3ms)[0m  SELECT  "shops".* FROM "shops"  WHERE "shops"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered shops/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 147ms (Views: 142.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/shopping_list_items.css?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/shops.css?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/shopping_lists.css?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/shopping_list_items.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/shops.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 08:08:18 +0800
+
+
+Started GET "/shops" for 127.0.0.1 at 2015-01-28 08:08:20 +0800
+Processing by ShopsController#index as HTML
+  [1m[36mShop Load (0.3ms)[0m  [1mSELECT "shops".* FROM "shops"[0m
+  Rendered shops/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 171ms (Views: 169.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 08:08:31 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 167ms (Views: 165.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shopping_list_items" for 127.0.0.1 at 2015-01-28 08:08:33 +0800
+Processing by ShoppingListItemsController#index as HTML
+  [1m[35mShoppingListItem Load (0.6ms)[0m  SELECT "shopping_list_items".* FROM "shopping_list_items"
+  Rendered shopping_list_items/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 189ms (Views: 173.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 08:37:30 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 142ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shopping_lists" for 127.0.0.1 at 2015-01-28 08:37:31 +0800
+Processing by ShoppingListsController#index as HTML
+  [1m[36mShoppingList Load (0.6ms)[0m  [1mSELECT "shopping_lists".* FROM "shopping_lists"[0m
+  Rendered shopping_lists/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 128ms (Views: 121.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 08:37:37 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.0ms)
