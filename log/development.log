@@ -5995,3 +5995,450 @@ Migrating to DeviseCreateUsers (20150129125828)
   [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150129125828"]]
   [1m[36m (20.0ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:08:29 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 532ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widget with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widget' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2511869881886059987_42077080'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:08:30 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 108ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widget with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widget' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2511869881886059987_42077080'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:11:57 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 277ms
+
+ActionView::Template::Error (Missing partial layouts/__user_widget with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/_user_widget' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___2014020749887895498_38027580'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:11:59 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 101ms
+
+ActionView::Template::Error (Missing partial layouts/__user_widget with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/_user_widget' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___2014020749887895498_38027580'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:13:09 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 247ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widget with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widget' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___3479805505219543585_32456380'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:13:34 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 107ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___3479805505219543585_41566980'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:16:31 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 244ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_41404560'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:16:45 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 99ms
+
+ActionView::Template::Error (Missing partial views/layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'views/layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_46095340'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:17:14 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_46452100'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:18:20 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 104ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render :partial => 'layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_69896435756220'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:20:11 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 128ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render :partial => 'layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_69896435756220'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:20:46 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 131ms
+
+ActionView::Template::Error (Missing partial welcome/_user_widgets, application/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render :partial => 'user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_49135920'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:22:35 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 73ms
+
+ActionView::Template::Error (Missing partial views/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'views/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_46442700'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:23:04 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 105ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_69896436011960'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:23:21 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 127ms
+
+ActionView::Template::Error (Missing partial layouts/__user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/_user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2564558240825841222_69896436091100'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:24:26 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 241ms
+
+ActionView::Template::Error (Missing partial layouts/_user_widgets with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/comiks/Desktop/ShoppingCart/CS112/app/views"
+  * "/var/lib/gems/1.9.1/gems/devise-3.4.1/app/views"
+):
+    13: 
+    14: <%= yield %>
+    15: 
+    16: <%= render 'layouts/user_widgets' %>
+    17: 
+    18: </body>
+    19: </html>
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__3943711199485728257_34448420'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_user_widget.rb (4.5ms)
+Completed 200 OK in 110ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/shopping_list_items.css?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/shops.css?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/shopping_lists.css?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/shopping_list_items.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/shops.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 21:28:08 +0800
